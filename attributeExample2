@@ -1,0 +1,4 @@
+<aura:application>
+    <aura:attribute name="whom" type="String" default="world"/>
+    Hello {!v.whom}!
+</aura:application>
