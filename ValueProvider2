@@ -1,0 +1,6 @@
+<aura:component>
+    {!$Locale.language}
+    {!$Locale.timezone}
+    {!$Locale.numberFormat}
+    {!$Locale.currencyFormat}
+</aura:component>
