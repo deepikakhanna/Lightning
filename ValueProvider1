@@ -1,0 +1,6 @@
+<aura:component>
+    {!$Browser.isTablet}
+    {!$Browser.isPhone}
+    {!$Browser.isAndroid}
+    {!$Browser.formFactor}
+</aura:component>
