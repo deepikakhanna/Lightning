@@ -1,0 +1,3 @@
+<ui:inputText label="Name" aura:id="name" placeholder="First, Last"/>
+<ui:outputText aura:id="nameOutput" value=""/>
+<ui:button aura:id="outputButton" label="Submit" press="{!c.getInput}"/>
