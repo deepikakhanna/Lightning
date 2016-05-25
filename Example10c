@@ -1,0 +1,8 @@
+<aura:attribute name="first" type="String" default="John"/>
+<aura:attribute name="last" type="String" default="Doe"/>
+
+<ui:inputText label="First Name" value="{!v.first}" updateOn="keyup"/>
+<ui:inputText label="Last Name" value="{!v.last}" updateOn="keyup"/>
+
+<!-- Returns "John Doe" -->
+<ui:outputText value="{!v.first +' '+ v.last}"/>
