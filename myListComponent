@@ -1,0 +1,8 @@
+<!--myNamespace:myListComponent-->
+<aura:component>
+    <aura:attribute name="numbers" type="List"/>
+    <ui:button press="{!c.getNumbers}" label="Display Numbers" />
+    <aura:iteration var="num" items="{!v.numbers}">
+        {!num.value}
+    </aura:iteration>
+</aura:component>
